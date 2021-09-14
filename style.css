@@ -20,9 +20,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.about{
-    max-width: 1100px;
-    margin: 0 auto;
+.about {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 /* .user-div {
@@ -30,11 +30,11 @@ body {
 } */
 
 .logo {
-    display: flex;
+  display: flex;
 }
 
 .logo a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo h1 {
@@ -46,7 +46,7 @@ body {
   color: black;
 }
 a:visited {
-    color: black;
+  color: black;
 }
 
 #bio {
@@ -78,10 +78,10 @@ a:visited {
 }
 
 .user-dets {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #user-name h1 {
   font-size: 3rem;
@@ -122,4 +122,24 @@ footer {
   margin-top: 5rem;
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 500px) {
+  #bio {
+    flex-direction: column-reverse;
+  }
+  .left {
+    width: auto;
+  }
+
+  .bio-pic {
+    text-align: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
 }
