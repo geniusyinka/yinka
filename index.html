@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yinka's stuff</title>
     <link rel="stylesheet" href="/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body style="background-color: white;">
     <section id="parent">
         <section class="container">
-            <div id="user">
+            <div id="user" data-aos="fade-down" data-aos-duration="3000">
                 <div class="user-div">
                     <img class="user-pic" src="/assets/pic.png" alt="" srcset="">
                 </div>
             </div>
-            <div id="user-name">
-                <h1> oshidipe olayinka </h1>
+            <div class="user-dets" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="300">
+                <div id="user-name" >
+                    <h1> oshidipe olayinka </h1>
+                </div>
+                <div id="user-title">
+                    <p>software engineer</p>
+                </div>
+                <a href="/yinka.html"><img class="next-page-icon" src="/assets/right-arrow.png" alt="" /></a>
             </div>
-            <div id="user-title">
-                <p>software engineer</p>
-            </div>
-            <a href="/yinka.html"><img class="next-page-icon" src="/assets/right-arrow.png" alt=""/></a>
         </section>
     </section>
-    </body>
+</body>
+<script>
+    AOS.init();
+</script>
+
 </html>
