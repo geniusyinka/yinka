@@ -43,6 +43,10 @@ body {
   font-weight: 300;
   font-size: 64px;
   line-height: 81px;
+  color: black;
+}
+a:visited {
+    color: black;
 }
 
 #bio {
