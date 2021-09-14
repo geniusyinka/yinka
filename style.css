@@ -72,6 +72,13 @@ body {
 .right {
   width: auto;
 }
+
+.user-dets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #user-name h1 {
   font-size: 3rem;
   margin: 0;
